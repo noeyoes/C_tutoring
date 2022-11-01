@@ -1,6 +1,6 @@
 // ch = 9, inum=1052, dnum=3.1415 일때 
-// ch, inum, dunm의 크기와 
-// char, int, long, long long, float, double의 크기를 출력하는 코드를 작성하시오
+// ch, inum, dunm과 char, int, long, long long, float, double의 
+// 크기를 출력하는 코드를 작성하시오
 
 #include <stdio.h>
 
