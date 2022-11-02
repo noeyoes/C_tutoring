@@ -2,6 +2,6 @@
 #include <stdio.h>
 
 int main(void){
-    printf("ì´ë¦„ : ìœ¤ì„œì§„\nìƒì¼ : 10ì›” 2ì¼");
+    printf("ÀÌ¸§ : À±¼­Áø\n»ıÀÏ : 10¿ù 2ÀÏ");
     return 0;
 }
