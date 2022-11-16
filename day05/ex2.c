@@ -1,10 +1,11 @@
 #include <stdio.h>
 
+//5ÁÖÂ÷
 int main() {
 	int num = 0;
 	int result = 1;
 
-	printf("ìˆ«ì í•œ ê°œë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
+	printf("Á¤¼ö ÀÔ·Â: ");
 	scanf("%d", &num);
 
 	for (int i = 1; i <= num; i++) {

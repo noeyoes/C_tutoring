@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//5주차
 int main() {
 	int num = 10;
 	int i=0, j=0, k=0;
