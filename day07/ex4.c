@@ -19,7 +19,7 @@ void func(int sel) {
 }
 
 int main() {
-    int sel;
+    int sel = 0;
 
     printf("1. È­¾¾ 2. ¼·¾¾ : ");
     scanf("%d", &sel);

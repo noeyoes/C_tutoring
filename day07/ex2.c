@@ -24,7 +24,7 @@ int main() {
     int x, y;
     int result;
 
-    printf("두 정수 입력: ");
+    printf("두 정수를 입력하세요: ");
     scanf("%d %d", &x, &y);
 
     result = SumNum(x, y);
