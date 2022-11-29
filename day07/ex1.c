@@ -8,7 +8,7 @@ void Convert(int num) {
 
 int main1() {
     int num;
-    printf("출력할 정수를 입력하세요: ");
+    printf("정수를 입력하세요: ");
     scanf("%d", &num);
 
     Convert(num);

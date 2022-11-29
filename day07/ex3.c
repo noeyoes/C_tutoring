@@ -18,7 +18,7 @@ int main() {
 
     result = Max(x,y);
 
-    printf("%d, %d중 큰 수는 %d입니다.", x, y, result);
+    printf("%d와 %d중 큰 수는 %d입니다.", x, y, result);
 
     return 0;
 }
