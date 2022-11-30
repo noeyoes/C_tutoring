@@ -24,13 +24,13 @@ int main4() {
 		printf("화씨 온도를 입력하세요: ");
 		scanf("%d", &fah);
 		cel = F2C(fah);
-		printf("섭씨 온도는 %d입니다.", cel);
+		printf("섭씨 온도는 %.2f입니다.", cel);
 	}
 	else if (c == 2) {
 		printf("섭씨 온도를 입력하세요: ");
 		scanf("%d", &cel);
 		fah = C2F(cel);
-		printf("화씨 온도는 %d입니다.", fah);
+		printf("화씨 온도는 %.2f입니다.", fah);
 	}
 	return 0;
 }
