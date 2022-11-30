@@ -1,0 +1,36 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int C2F(int cel) {
+	int fah;
+
+	fah = (1.8 * cel) + 32;
+	return fah;
+}
+int F2C(int fah) {
+	int cel;
+
+	cel = (fah - 32) / 1.8;
+	return cel;
+}
+
+int main4() {
+	int cel, fah, c;
+
+	printf("1. È­¾¾ 2. ¼·¾¾: ");
+	scanf("%d", &c);
+
+	if (c == 1) {
+		printf("È­¾¾ ¿Âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		scanf("%d", &fah);
+		cel = F2C(fah);
+		printf("¼·¾¾ ¿Âµµ´Â %dÀÔ´Ï´Ù.", cel);
+	}
+	else if (c == 2) {
+		printf("¼·¾¾ ¿Âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		scanf("%d", &cel);
+		fah = C2F(cel);
+		printf("È­¾¾ ¿Âµµ´Â %dÀÔ´Ï´Ù.", fah);
+	}
+	return 0;
+}
